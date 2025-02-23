@@ -61,7 +61,7 @@
             transition: transform 0.3s ease-in-out, box-shadow 0.3s ease-in-out;
             text-decoration: none;
             display: block;
-            padding: 20px;
+            padding: 5px;
             text-align: center;
             position: relative;
         }
@@ -71,11 +71,16 @@
             box-shadow: 0px 10px 20px rgba(0, 0, 0, 0.15);
         }
 
+        h1 {
+            margin: 10px;
+        }
+
         .display-name {
-            font-size: 22px;
+            font-size: 25px;
             font-weight: bold;
             color: #333;
             margin-bottom: 10px;
+            text-align: left;
         }
 
         .phoneNo {
@@ -107,7 +112,6 @@
         }
 
         .arrow img {
-            width: 30px;
             height: 30px;
         }
 
@@ -120,11 +124,17 @@
             .branch-item {
                 flex: 1 1 calc(50% - 10px);
             }
+
+
         }
 
         @media (max-width: 480px) {
             .branch-item {
                 flex: 1 1 calc(50% - 10px);
+            }
+
+            .display-name {
+                font-size: 17px;
             }
         }
     </style>
