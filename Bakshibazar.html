@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="bn">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>শাখার বিবরণ</title>
+    <link rel="stylesheet" href="location.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css">
+
+
+</head>
+
+<body>
+
+    <section class="branch-details-view">
+
+        <div class="container">
+            <H2>Bakshibazar ESM Campus</H2>
+            <div class="card shadow-lg">
+                <div class="card-body p-5">
+                    <div class="address">
+                        <span>
+                            বকশিবাজার ক্যাম্পাস (শুধুমাত্র মেয়েদের জন্য): ১৯/১,২ হেলিকন সেন্টার (২য় তলা, ডান পাশে),
+                            বকশিবাজার সিগন্যাল পয়েন্ট (ভর্তা বাড়ী রেস্টুরেন্টের উল্টাপাশে), বকশিবাজার, ঢাকা-১২১১।
+                        </span>
+                    </div>
+
+                    <div class="phoneNo py-3">
+                        <a class="number" href="tel:01713236953">
+                            <i class="fas fa-phone-alt"></i> 01713236953
+                        </a>
+                        <a class="number" href="tel:01713236955">
+                            <i class="fas fa-phone-alt"></i> 01713236955
+                        </a>
+                    </div>
+
+
+                    <div class="map">
+                        <div id="map-container-google-1" class="map-container">
+                            <iframe
+                                src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d3652.6452279510972!2d90.395566!3d23.72436!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3755b8e7abdd54c5%3A0x236fb7ca3dfd61df!2sHelicon%20Center!5e0!3m2!1sen!2sbd!4v1740291338749!5m2!1sen!2sbd"
+                                width="100%" height="300" style="border:0;" allowfullscreen="" loading="lazy"
+                                referrerpolicy="no-referrer-when-downgrade"></iframe>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="text-center pt-5">
+                <a class="btn btn-back" href="index.html">Back</a>
+            </div>
+
+            <div class="container2">
+                <h1> Bakshibazar Help-line </h1>
+                <textarea id="messageBox" placeholder="Type your message here..."></textarea>
+                <button onclick="sendMessage()">Send</button>
+            </div>
+
+        </div>
+
+
+
+    </section>
+
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/bootstrap/5.3.0/js/bootstrap.bundle.min.js"></script>
+    <script>
+        function sendMessage() {
+            var message = document.getElementById("messageBox").value;
+            var phoneNumber = "+8801313368704";
+            var whatsappUrl = "https://wa.me/" + phoneNumber + "?text=" + encodeURIComponent(message);
+            window.open(whatsappUrl, "_blank");
+        }
+    </script>
+
+</body>
+
+</html>
