@@ -53,14 +53,14 @@
      text-decoration: none;
      color: white;
      font-weight: bold;
-     background: #ff7e5f;
+     background: #007bbf;
      padding: 5px 7px;
      border-radius: 8px;
      transition: background 0.3s ease;
  }
 
  .number:hover {
-     background: #eb6751;
+     background: #04a1f5;
  }
 
 
@@ -68,7 +68,7 @@
  .number i {
      margin-right: 8px;
      /* আইকনের ডান পাশে একটু ফাঁকা রাখবে */
-     color: #28a745;
+     color: #fcfcfc;
      /* আইকনের রঙ সবুজ */
  }
 
@@ -98,8 +98,8 @@
      color: white;
      font-size: 16px;
      font-weight: bold;
-     padding: 12px 25px;
-     border-radius: 15px;
+     padding: 5px 15px;
+     border-radius: 5px;
      text-decoration: none;
      transition: background 0.3s ease;
 
@@ -162,4 +162,9 @@
      border: none;
      border-radius: 5px;
      cursor: pointer;
+ }
+
+ button:hover {
+     background-color: #007bff;
+     font-weight: bold;
  }

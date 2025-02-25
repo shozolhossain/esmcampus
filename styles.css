@@ -12,7 +12,7 @@
      align-items: center;
      justify-content: space-between;
      padding: 15px 20px;
-     background: linear-gradient(to right, #ff7e5f, #feb47b);
+     background: linear-gradient(to right, #007bbf, #028dd9);
      color: white;
      box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.1);
  }
@@ -127,6 +127,6 @@
      }
 
      .display-name {
-         font-size: 17px;
+         font-size: 15px;
      }
  }
